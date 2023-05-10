@@ -4,7 +4,7 @@
     {
       "label": "transpile",
       "type": "shell",
-      "command": "npx webpack"
+      "command": "npx webpack build --config ./.localenv/webpack.config.js"
     },
   ]
 }
